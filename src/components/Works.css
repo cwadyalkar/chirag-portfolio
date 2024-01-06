@@ -1,0 +1,49 @@
+#works{
+  min-width:calc(100vh-4rem); 
+  width: 100vw; 
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.worksDescription{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 45rem;
+    margin-bottom: 2rem ;
+}
+.worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
+    max-width: 65rem;
+}
+.worksimg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+.workbtn{
+    padding: 0.5rem 2.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+    margin: 3rem 0;
+    cursor: pointer;
+}
+@media screen and(max-width:585px) {
+    .worksImg{
+        height: 48vw;
+    }
+}
