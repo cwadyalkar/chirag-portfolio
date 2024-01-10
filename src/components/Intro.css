@@ -9,11 +9,11 @@
 .bgimg{
 
     position: absolute;
-    top: -4rem;
+    top: 6rem;
     right: 0;
     object-fit: cover;
     z-index: -1;
-    height: 100vh;
+    height: 65vh;
 }
 .introContent{
 height: 100vh;

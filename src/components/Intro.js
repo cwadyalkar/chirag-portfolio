@@ -1,6 +1,7 @@
 import React from "react";
 import "./Intro.css";
-import img from "../assets/image.png";
+// import img from "../assets/image.png";
+import coder from "../assets/coder.png"
 import btnimg from "../assets/hireme.png";
 import { Link } from "react-scroll";
 
@@ -12,7 +13,7 @@ const Intro = () => {
             <span className="introText">
               I am<span className="introName"> Chirag</span>
               <br />
-              Website Designer
+              MERN Developer
             </span>
         
           <p className="introPara">
@@ -21,14 +22,14 @@ const Intro = () => {
             Appealing and User friendly Website
           </p>
         <Link>
-          <button className="btn">
+          <button style={{cursor:"pointer"}} className="btn">
             <img className="btnImg" src={btnimg} alt="" />
             Hire Me
           </button>
         </Link>
       </div>
 
-      <img src={img} alt="profile" className="bgimg" />
+      <img src={coder} alt="profile" className="bgimg" />
     </section>
   );
 };
